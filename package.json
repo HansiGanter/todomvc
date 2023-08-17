@@ -53,6 +53,7 @@
     "ember-resolver": "^10.1.1",
     "ember-source": "~5.1.1",
     "ember-template-lint": "^5.11.0",
+    "ember-truth-helpers": "^3.1.1",
     "ember-welcome-page": "^7.0.2",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
@@ -67,6 +68,8 @@
     "stylelint": "^15.9.0",
     "stylelint-config-standard": "^33.0.0",
     "stylelint-prettier": "^3.0.0",
+    "todomvc-app-css": "^2.4.2",
+    "todomvc-common": "^1.0.5",
     "tracked-built-ins": "^3.1.1",
     "webpack": "^5.88.1"
   },

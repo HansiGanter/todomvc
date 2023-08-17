@@ -1,0 +1,17 @@
+<footer class="footer">
+    <span class="todo-count"> <strong>{{this.todos.incomplete.length}}</strong>
+        {{#if (eq this.todos.incomplete.length 1)}} todo
+        {{else}} todos
+        {{/if}} left
+    </span>
+
+    <ul class="filters">
+        <li>
+            <LinkTo @route="index">All</LinkTo>
+            <LinkTo @route="active">Active</LinkTo>
+            <LinkTo @route="completed">Completed</LinkTo>
+
+        </li>
+    </ul>
+    <button type="button" class="clear-completed" {{on 'click' this.todos.clearCompleted}}>Clear Completed</button>
+</footer>
